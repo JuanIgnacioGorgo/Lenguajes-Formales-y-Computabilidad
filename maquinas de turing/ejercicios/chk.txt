@@ -1,0 +1,7 @@
+# a b c x
+
+("aceptada",  "d", 2), ("#", "n", 0)
+("rechazada", "d", 2), ("#", "d", 2)
+("rechazada", "d", 2), ("#", "d", 2)
+("rechazada", "d", 2), ("#", "d", 2)
+("rechazada", "d", 2), ("#", "d", 2)

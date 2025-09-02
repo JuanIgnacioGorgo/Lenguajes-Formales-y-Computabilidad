@@ -1,0 +1,13 @@
+# *
+
+("#", "i", 2), ("#", "d", 3), ("#", "d", 4), ("#", "i", 5), ("=", "n", 0), ("<", "d", 18), ("#", "d", 8), ("#", "i",  9), (">", "i", 17), ("#", "i", 11), ("#", "d", 12), ("#", "n",  0), ("#", "d", 14), ("#", "i", 15), ("#", "n",  0), ("#", "i",  2), ("#", "n",  0), ("#", "n",  0)
+("*", "d", 1), ("*", "d", 7), ("*", "n", 0), ("*", "i", 6), ("*", "n", 0), ("*", "n",  0), ("*", "n", 0), ("*", "i", 10), ("*", "n",  0), ("*", "n",  0), ("*", "i", 11), ("#", "d", 13), ("*", "d", 13), ("*", "d", 14), ("#", "i", 16), ("*", "i", 16), ("#", "i", 17), ("#", "d", 18)
+
+/      1              2              3              4              5              6               7              8               9              10              11              12              13              14              15              16              17              18
+
+/ se mueve hasta el espacio intermedio entre ambos numeros      1
+/ se comprueba nulidad del numero de la izquierda               2 | s3: nI es nulo | s7: nI tiene valor
+/ se comprueba nulidad del numero de la derecha caso s3         3, 4, 5, 6
+/ se comprueba nulidad del numero de la derecha caso s7         7, 8, 9
+/ se disminuye en una unidad el numero de la izquierda          10, 11, 12
+/ se disminuye en una unidad el numerdo de la derecha           13, 14

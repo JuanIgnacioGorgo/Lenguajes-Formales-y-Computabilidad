@@ -1,0 +1,16 @@
+# *
+
+("#", "i", 2), ("#", "n", 0), ("#", "d", 3), ("#", "d", 5), ("#", "n", 6), ("*", "i", 7), ("#", "i", 8), ("#", "i", 9), ("#", "i", 10), ("#", "d", 11), ("#", "d", 12), ("#", "d",  0), ("#", "d", 14), ("#", "d", 15), ("#", "d", 16), ("#", "i", 17), ("*", "i", 7)
+("*", "d", 1), ("#", "d", 3), ("*", "d", 4), ("*", "d", 4), ("*", "d", 4), ("*", "n", 0), ("*", "i", 7), ("*", "i", 7), ("*", "i",  9), ("*", "i",  9), ("*", "n",  0), ("#", "n", 13), ("*", "d", 13), ("*", "d", 13), ("*", "d", 15), ("*", "d", 15), ("*", "n", 0)
+/      1              2              3              4              5              6              7              8              9              10              11              12              13              14              15              16              17
+
+
+/ mueve hasta ultima marca y borrarla                                   1, 2
+/ recorre hasta encontrar el siguiente numero                           3
+/ moverse derecha hasta doble blanco, retroceder uno y colocar marca    4, 5, 6
+/ moverse izquierda hasta doble blanco y retroceder uno                 7, 8
+/ moverse izquierda hasta doble blanco y avanzar uno                    9, 10
+/ adelantarse uno y quitar ultimo                                       11, 12
+/ moverse derecha hasta doble blanco y avanzar uno                      13, 14
+/ moverse derecha hasta doble blanco y retroceder uno                   15, 16
+/ recursion                                                             17 -> 7
