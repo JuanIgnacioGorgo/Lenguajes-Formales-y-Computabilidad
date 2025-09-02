@@ -1,0 +1,1 @@
+En este repositorio van a encontrar intérpretes de Funciones de Listas y Máquinas de Turing hechos en Python. Fueron empleados como herramientas de estudio para la materia "Lenguajes Formales y Computabilidad" del 3er Cuatrimestre de la carrera LCC-UNR
